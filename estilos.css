@@ -1,0 +1,169 @@
+#navbarNav {
+	background-color: #000000;
+}
+    
+.navbar-nav {
+	margin-left: auto;
+	align-items: center;
+	align-content: center;
+	background-color: #000000;
+}
+  
+.nav-link {
+	font-size: 1.2rem;
+	padding: 1rem;
+}
+
+.section {
+	position: relative;
+	height: fit-content;
+	padding-top: 15%;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	font-family: "Love Ya Like A Sister", cursive;
+  	font-weight: 600;
+  	font-style: normal;
+  }
+
+  #section_title {
+	font-size: large;
+  }
+  
+#tapa {
+	background:  rgb(0, 0, 0);
+	height: 90vp;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+	align-items: center;
+	text-align: center;
+}
+
+#tapa > div { 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+#Sobre_la_obra {
+	background:  rgb(255, 255, 255);
+	height: 90vp;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+	align-items: center;
+	text-align: center;
+	min-height: 0vh;
+}
+
+#cabeza_pelada{
+	margin-top:20%;
+	margin-bottom:30%;
+	align-self: center;
+	align-items: center;
+	max-height: 6cm;
+}
+
+#logo_pelada{
+	margin-bottom:10%;
+	align-self: center;
+	align-items: center;
+	max-height: 6cm;
+}
+
+#creadores{
+	display: flex;
+    flex-direction: row; 
+    align-items: center;
+	color: white;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+#ficha{
+
+	color: black;
+	display: flex;
+	flex-wrap: wrap;
+    flex-direction: row; 
+    align-items: center;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#Hernan_Espinosa {
+	background-color: #000000;
+	height: 90vp;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+	align-items: center;
+	text-align: center;
+	min-height: 0vh;
+}
+
+#Escenas {
+	height: 90vp;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+	align-items: center;
+	text-align: left;
+	min-height: 0vh;
+}
+
+
+#fotos_elenco{
+	align-self: center;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.foto_elenco{
+	margin: 10px;
+	max-width: 100px;
+}
+
+#Otras_obras{
+	background-color: #990000;
+}
+
+strong {
+    font-weight: 900;
+}
+
+light {
+    font-weight: 500; 
+}
+
+.play_frame {
+	max-width: 100px;
+}
+  
+@media (max-width: 500px) {
+	.navbar-nav {
+	  margin: 0;
+	}
+	.nav-link {
+	  padding: 0.5rem;
+	}
+	.card-title {
+	  font-size: 1rem;
+	}
+
+	.card-body{
+		min-height: 0px;
+	}
+
+    .display-4{
+        font-size:45px;
+    }
+    .display-5{
+        font-size:large;
+    }
+}
