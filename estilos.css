@@ -225,14 +225,43 @@ light {
 	color: white;
 	width: 70%;
 	margin: 20px;
-  }
+}
   
-  .transparent-button img {
+.transparent-button img {
 	width: 90%; /* Adjust image width as needed */
 	height: auto; /* Maintain aspect ratio */
 	margin-top: 5px; /* Add spacing between text and image */
-  }
+}
 
+#myImage:focus + #messageBox,#myImage:active + #messageBox {
+	display: block;
+}
+
+#messageBox {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff; /* Dark grey */
+  color: rgb(0, 0, 0);
+  padding: 15px;
+  border-radius: 5px;
+  z-index: 9999; /* Ensure it's on top */
+  animation: fadeOut 2s forwards; /* Animation for fading out */
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.5s ease-in-out;
+}
+
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  95% { opacity: 1; } /* Stay visible for 5 seconds */
+  100% { opacity: 0; display: none; } /* Fade out and hide */
+}
+
+/* Optional: Add a pointer cursor to the image */
+#myImage {
+  cursor: pointer;
+}
   
 @media (max-width: 500px) {
 	.navbar-nav {
