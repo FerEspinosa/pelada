@@ -88,7 +88,7 @@
 	display: flex;
 	flex-wrap: wrap;
     flex-direction:column; 
-    align-items: center;
+    justify-content: center;
 	margin-top: 30px;
 	margin-bottom: 20px;
 	margin-left: 20px;
@@ -132,21 +132,36 @@
 	position: relative; /* Makes the container a positioning context */
 	overflow-clip-margin: content-box;
     overflow: clip;
-  }
 
-  .thumbnail img {
+}
+
+.thumbnail img {
 	max-width: 120px;
 	height: auto;
-	margin: 5px;
-  }
+	margin: 8px;
+}
   
-  .thumbnail-label {
+
+.thumbnail2 {
+	box-sizing: border-box;
+	position: relative; /* Makes the container a positioning context */
+	overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.thumbnail2 img {
+	max-width: 150px;
+	height: fit-content;
+	margin: 12px;
+}
+
+.thumbnail-label {
 	position: absolute; /* Positions the label relative to the container */
 	top: 5px; /* Adjust top position */
 	left: 10px; /* Adjust left position */
 	color: rgba(255, 255, 255, 0.7); /* Add a background for better visibility */
 	padding: 5px; /* Add padding for spacing */
-  }
+}
 
 #Otras_obras{
 	background-color: #990000;
@@ -159,9 +174,11 @@
 	font-family: "Love Ya Like A Sister", cursive;
   	font-weight: 600;
   	font-style: normal;
+	color: white;
 }
 
 #Otras_obras > div { 
+
     max-width: 80%; 
     display: flex; 
     flex-wrap: wrap; 
@@ -190,6 +207,8 @@ light {
 	display: flex;
 	flex-wrap: wrap;
 }
+
+
 
 
   
