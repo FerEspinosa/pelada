@@ -8,6 +8,10 @@
 	align-content: center;
 	background-color: #000000;
 }
+
+.navbar.bg-dark {
+	background-color: black !important; 
+}
   
 .nav-link {
 	font-size: 1.2rem;
@@ -53,6 +57,7 @@
     padding-left: 5px;
     padding-right: 5px;
     padding-bottom: 20px;
+	margin-top: 55px;
 	align-items: center;
 	text-align: center;
 	min-height: 0vh;
@@ -114,6 +119,11 @@
 	align-items: center;
 	text-align: left;
 	min-height: 0vh;
+}
+
+#Reparto{
+	display: flex;
+	justify-content: center;
 }
 
 #fotos_elenco{
@@ -202,12 +212,6 @@ light {
 .play_frame {
 	max-width: 100px;
 }
-
-#test{
-	display: flex;
-	flex-wrap: wrap;
-}
-
 
 
 
