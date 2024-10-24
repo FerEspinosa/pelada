@@ -17,7 +17,7 @@
 .section {
 	position: relative;
 	height: fit-content;
-	padding-top: 15%;
+	padding-top: 5%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -151,6 +151,7 @@
 
 strong {
     font-weight: 900;
+	font-size: larger;
 }
 
 light {
