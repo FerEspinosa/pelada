@@ -248,14 +248,15 @@ light {
 	padding: 15px;
 	border-radius: 5px;
 	z-index: 1; /* Ensure it's on top */
-	animation: fadeOut 3s forwards; /* Animation for fading out */
+	animation: fadeOut 2s forwards; /* Animation for fading out */
 	opacity: 0; /* Initially hidden */
-	transition: opacity 0.8s ease-in-out;
+
   }
   
   @keyframes fadeOut {
-	0% { opacity: 1; }
-	95% { opacity: 1; } /* Stay visible for 5 seconds */
+	0% { opacity: 0; }
+	10% { opacity: 1; }
+	70% { opacity: 1; } /* Stay visible for 5 seconds */
 	100% { opacity: 0; display: none; } /* Fade out and hide */
   }
   
