@@ -233,25 +233,26 @@ light {
 }
 
 
-#myImage:focus + #messageBox,
-#myImage:active + #messageBox {
-  display: block;
+.thumbnail:focus-within .messageBox, 
+.thumbnail:hover .messageBox {
+    display: block;
 }
 
-#messageBox {
-	position: fixed;
-	top: 80%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	background-color: #ffffff;
-	color: rgb(0, 0, 0);
-	padding: 15px;
-	border-radius: 5px;
-	z-index: 1; /* Ensure it's on top */
-	animation: fadeOut 2s forwards; /* Animation for fading out */
-	opacity: 0; /* Initially hidden */
-
-  }
+.messageBox {
+    position: fixed;
+    top: 80%; /* Center vertically */
+    left: 50%; /* Center horizontally */					
+    transform: translate(-50%, -50%);
+    background-color: #b6b6b6;
+    color: rgb(0, 0, 0);
+    padding: 25px;
+    border-radius: 10px;
+    z-index: 1; 
+    animation: fadeOut 2.5s forwards; 
+    opacity: 0;
+	width: 90%;
+	max-width: 90%;
+}
   
   @keyframes fadeOut {
 	0% { opacity: 0; }
@@ -261,7 +262,7 @@ light {
   }
   
   /* Optional: Add a pointer cursor to the image */
-  #myImage {
+  .myImage {
 	cursor: pointer;
 	position: relative;
   }
