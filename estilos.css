@@ -154,16 +154,18 @@
   
 
 .thumbnail2 {
-	box-sizing: border-box;
+	
 	position: relative; /* Makes the container a positioning context */
-	overflow-clip-margin: content-box;
-    overflow: clip;
+	
+	width:1100px;
+
 }
 
 .thumbnail2 img {
 	max-width: 120px;
 	height: fit-content;
 	margin: 12px;
+	border: 3px solid #ccc;
 }
 
 .thumbnail-label {
@@ -218,18 +220,19 @@ light {
 	background-color: transparent; /* Make the button transparent */
 	border: 1px solid #ccc; /* Add a thin border */
 	border-radius: 5px; /* Add rounded corners */
-	padding: 10px 15px; /* Add padding for spacing */
+	padding: 5px; /* Add padding for spacing */
 	cursor: pointer; /* Change cursor to pointer on hover */
 	display: flex; /* Use flexbox for vertical alignment */
 	flex-direction: column; /* Stack elements vertically */
 	align-items: center; /* Center elements horizontally */
 	color: white;
-	width: 70%;
+	width: fit-content;
 	margin: 20px;
 }
   
 .transparent-button img {
-	width: 90%; /* Adjust image width as needed */
+	max-width: 90%;
+	width: fit-content;
 	height: auto; /* Maintain aspect ratio */
 	margin-top: 5px; /* Add spacing between text and image */
 }
@@ -252,8 +255,8 @@ light {
     z-index: 1; 
     animation: fadeOut 2.5s forwards; 
     opacity: 0;
-    width: fit-content;
-    max-width: 90%;
+	width: fit-content;
+	max-width: 90%;
 }
   
   @keyframes fadeOut {
@@ -268,6 +271,11 @@ light {
 	cursor: pointer;
 	position: relative;
   }
+
+  html, body {
+    width: 100%!important;
+    overflow-x: hidden!important;
+}
   
 @media (max-width: 500px) {
 	.navbar-nav {
