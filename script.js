@@ -18,20 +18,24 @@ for (const navLink of navLinks) {
 }
 
 // Code for showing the message box
-const image = document.getElementById('myImage');
-const messageBox = document.getElementById('messageBox');
+const thumbnails = document.querySelectorAll('.thumbnail');
 
-if (image && messageBox) {
-  image.addEventListener('click', () => {
-    messageBox.style.display = 'block';
-    messageBox.style.opacity = 1; 
+thumbnails.forEach(thumbnail => {
+    const image = thumbnail.querySelector('.myImage');
+    const messageBox = thumbnail.querySelector('.messageBox');
 
-    setTimeout(() => {
-      messageBox.style.opacity = 0; 
-      setTimeout(() => {
-        messageBox.style.display = 'none';
-      }, 500); 
-    }, 5000);
-  });
-}			
+    if (image && messageBox) {
+        image.addEventListener('click', () => {
+            messageBox.style.display = 'block';
+            messageBox.style.opacity = 1;
+
+            setTimeout(() => {
+                messageBox.style.opacity = 0;
+                setTimeout(() => {
+                    messageBox.style.display = 'none';
+                }, 500);
+            }, 2000);
+        });
+    }
+});			
 
