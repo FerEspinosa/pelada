@@ -176,7 +176,7 @@
 	padding: 5px; /* Add padding for spacing */
 }
 
-#Otras_obras{
+#Musicales{
 	background-color: #990000;
 	position: relative;
 	height: fit-content;
@@ -190,7 +190,7 @@
 	color: white;
 }
 
-#Otras_obras > div { 
+#Musicales > div { 
 
     max-width: 80%; 
     display: flex; 
