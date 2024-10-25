@@ -252,8 +252,8 @@ light {
     z-index: 1; 
     animation: fadeOut 2.5s forwards; 
     opacity: 0;
-	width: 90%;
-	max-width: 90%;
+    width: fit-content;
+    max-width: 90%;
 }
   
   @keyframes fadeOut {
