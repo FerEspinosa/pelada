@@ -58,7 +58,6 @@
 	align-self: center;
 	align-items: center;
 	max-height: 10%;
-	
 }
 
 #logo_pelada{
@@ -80,8 +79,6 @@
 	min-height: 0vh;
 }
 
-
-
 #creadores{
 	display: flex;
     flex-direction: row; 
@@ -92,7 +89,6 @@
 }
 
 #ficha{
-
 	color: black;
 	display: flex;
 	flex-wrap: wrap;
@@ -125,13 +121,16 @@
 	min-height: 0vh;
 }
 
+.signo {
+	font-family: cursive;
+}
+
 #Reparto{
 	display: flex;
 	justify-content: center;
 }
 
 #fotos_elenco{
-
 	justify-content: center;
 	margin-left: 5%;
 	margin-right: 5%;
@@ -145,7 +144,7 @@
 	box-sizing: border-box;
 	position: relative; /* Makes the container a positioning context */
 	overflow-clip-margin: content-box;
-    overflow: clip;
+  	overflow: clip;
 }
 
 .thumbnail img {
@@ -156,11 +155,8 @@
   
 
 .thumbnail2 {
-	
 	position: relative; /* Makes the container a positioning context */
-	
 	width:1100px;
-
 }
 
 .thumbnail2 img {
@@ -203,7 +199,7 @@
 
 strong {
     font-weight: 900;
-	font-size: larger;
+    font-size: larger;
 }
 
 strong2 {
@@ -259,8 +255,8 @@ light {
     z-index: 1; 
     animation: fadeOut 2.5s forwards; 
     opacity: 0;
-	width: fit-content;
-	max-width: 90%;
+    width: fit-content;
+    max-width: 90%;
 }
   
   @keyframes fadeOut {
@@ -283,7 +279,7 @@ light {
   
 @media (max-width: 500px) {
 	.navbar-nav {
-	  margin: 0;
+		margin: 0;
 	}
 	.nav-link {
 	  padding: 0.5rem;
@@ -296,14 +292,14 @@ light {
 		min-height: 0px;
 	}
 
-    .display-4{
-        font-size:45px;
-    }
-    .display-5{
-        font-size:large;
-    }
+    	.display-4{
+       	 font-size:45px;
+    	}
+    	.display-5{
+        	font-size:large;
+    	}
 
-	#tapa{
-		padding-top: 80px;
-	}
+    	#tapa{
+   		padding-top: 80px;
+   	}
 }
