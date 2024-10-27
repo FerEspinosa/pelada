@@ -39,18 +39,16 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding-bottom: 20vh;
+    padding-bottom: 25vh;
 }
 
 #cabeza_pelada{
 	align-self: center;
-	align-items: center;
     max-height: 35vh;
 }
 
 #logo_pelada{
 	align-self: center;
-	align-items: center;
 	max-width: 800px;
 	width: 90%;
 	max-height: 35%;
