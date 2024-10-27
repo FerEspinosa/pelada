@@ -1,3 +1,4 @@
+
 #navbarNav {
 	background-color: #000000;
 }
@@ -289,31 +290,7 @@ light {
     width: 100%!important;
     overflow-x: hidden!important;
 }
-
-
-
-/* Style for the navbar-toggler when the navbar is collapsed */
-.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
-	background-image: none; /* Remove the default icon */
-}
-
-.navbar-toggler[aria-expanded="true"]::before {
-	content: attr(data-section-title); /* Display the section title */
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	color: white; /* Text color */
-	font-size: 1rem; /* Adjust font size as needed */
-}
-
-/* Hide the navbar-brand on small screens when the navbar is collapsed */
-@media (max-width: 991px) { /* Bootstrap breakpoint for collapsed navbar */
-    .navbar-collapse[class*="show"] .navbar-brand{
-        display: none;
-    }
-}
-
+  
 @media (max-width: 500px) {
 	.navbar-nav {
 	  margin: 0;
