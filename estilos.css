@@ -31,16 +31,15 @@
     padding-left: 5px;
     padding-right: 5px;
 	padding-bottom: 10vh;
-	justify-content: center;
 }
 
 #tapa {
-	height: 90vh;
-	display: flex;
-    flex-direction: column; 
+	height: 100vh;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-	justify-content: space-between;
-	padding-bottom: 5vh;
+    justify-content: space-between;
+    padding-bottom: 15vh;
 }
 
 #cabeza_pelada{
@@ -63,6 +62,7 @@
 	justify-content: space-evenly;
 	color: white;
 	text-align: center;
+	margin-bottom: 5rem;
 }
 
 #logos-muni{
