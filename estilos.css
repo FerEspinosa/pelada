@@ -1,11 +1,7 @@
-
-
-    
 .navbar-nav {
 	margin-left: auto;
 	align-items: center;
 	align-content: center;
-
 }
 
 .navbar.bg-dark {
@@ -36,7 +32,6 @@
     padding-right: 5px;
 	padding-bottom: 10vh;
 	justify-content: center;
-
 }
 
 #tapa {
@@ -46,9 +41,6 @@
     align-items: center;
 	justify-content: space-between;
 	padding-bottom: 5vh;
-	padding-left: 10vw;
-	padding-right: 10vw;
-
 }
 
 #cabeza_pelada{
@@ -88,7 +80,7 @@
     padding-left: 5px;
     padding-right: 5px;
     padding-bottom: 20px;
-	margin-top: 55px;
+	margin-top: 15vh;
 	align-items: center;
 	text-align: center;
 	min-height: 0vh;
